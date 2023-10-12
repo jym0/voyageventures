@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoyageVenture</title>
+    <title>VoyageVentures</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -19,9 +19,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Varela+Round&display=swap"
         rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style/index.css">
 
@@ -34,8 +34,9 @@
     <!-- services -->
     <section class="text-center mt-5 mb-5">
         <h2>Our Services</h2>
-        <div class="container">
-            <p class="text-start fs-5 text-secondary ml-3"> At Voyage Ventures, we're committed to making your
+        <div class="containeaddr">
+            <p class="text-start fs-5 text-secondary ml-n3">&nbsp; &nbsp; &nbsp; At Voyage Ventures, we're committed to
+                making your
                 travel
                 dreams a reality.
                 Our
@@ -43,8 +44,8 @@
                 services is designed to cater to all your travel needs and preferences. Whether you're an adventure
                 seeker,
                 a culture enthusiast, or simply seeking relaxation, we've got you covered.</p>
-            <div class="row g-3 mt-3">
-                <div class="col-md-6 col-lg-3">
+            <div class="row g-3 mt-3 services_div">
+                <div class="col-md-6 col-lg-3 ">
                     <div class="card bg-light border-white rounded-4">
                         <svg class="card-img-top mt-3" width="80" height="80" fill="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
@@ -123,7 +124,7 @@
                 </div>
             </div>
 
-            <div class="row g-3 mt-3">
+            <div class="row g-3 mt-1 services_div">
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-light border-white rounded-4">
                         <svg class="card-img-top mt-3" width="80" height="80" fill="currentColor" viewBox="0 0 24 24"

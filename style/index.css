@@ -3,13 +3,12 @@
 }
 
 .mylogo{
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Monoton', sans-serif;
 }
 
 .nav_clckd ul li a:active, .nav_clckd ul li a:hover{
     font-weight: bold;
 }
-
 
 
 /* home-carousel-text */
@@ -72,7 +71,7 @@
 
 .about-img1{
     width: 450px;
-    height: 380px;
+    height: 500px;
     object-fit: cover;
     object-position: center;
 }
@@ -86,9 +85,25 @@
     cursor: pointer;
 }
 
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.services_div div div:hover svg{
+    animation: bounce 0.5s ease;
+}
+
 /* about page */
 swiper-container {
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
@@ -99,6 +114,11 @@ swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width:768px){
+    swiper-container{
+        width: 100%;
+    }
 }
 
 /* package */
@@ -118,7 +138,9 @@ swiper-slide {
     display: none;
 }
 
-
+.success_modal{
+    display: none;
+}
 
 
 
@@ -128,3 +150,10 @@ swiper-slide {
         width: 50%;
     }
 }
+
+@media (max-width:768px){
+    .car_div div{
+        top: 30%;
+    }
+}
+

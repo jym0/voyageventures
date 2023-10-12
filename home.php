@@ -19,9 +19,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Varela+Round&display=swap"
         rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style/index.css">
 
@@ -93,7 +93,7 @@
                         adventure seekers, and cultural enthusiasts who share a deep love for exploration and a
                         commitment
                         to making your travel dreams come true.</p>
-                    <button class="btn btn-warning">Read More</button>
+                    <a href="about.php" class="btn btn-warning">Read More</a>
                 </div>
             </div>
         </div>

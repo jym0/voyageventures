@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoyageVenture</title>
+    <title>VoyageVentures</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -19,9 +19,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Varela+Round&display=swap"
         rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style/index.css">
 
@@ -83,7 +83,7 @@
                         <div>
                             <img src="public/package-img3.avif" class="card-img-top" alt="..." height="300px"
                                 style="object-fit:cover; object-position:center;">
-                            </div>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Greek Island Getaway</h5>
                             <p class="card-text align-item-center">
@@ -110,7 +110,8 @@
                             <h5 class="card-title">Costa Rica Eco-Explorer</h5>
                             <p class="card-text align-item-center">
                                 <li class="text-start">Destination: Costa Rica</li>
-                                <li class="text-start">Highlights: Rainforest Canopy Tours, Arenal Volcano, Manuel Antonio National Park
+                                <li class="text-start">Highlights: Rainforest Canopy Tours, Arenal Volcano, Manuel
+                                    Antonio National Park
                                 </li>
                                 <li class="text-start">Duration: 12 Days</li>
                             </p>
@@ -148,7 +149,8 @@
                             <h5 class="card-title">Bali Bliss</h5>
                             <p class="card-text align-item-center">
                                 <li class="text-start">Destination: Indonesia</li>
-                                <li class="text-start">Highlights: Serengeti National Park, Ngorongoro Crater, Wildlife Safari
+                                <li class="text-start">Highlights: Serengeti National Park, Ngorongoro Crater, Wildlife
+                                    Safari
                                 </li>
                                 <li class="text-start">Duration: 12 Days</li>
                             </p>
@@ -170,7 +172,8 @@
                             <h5 class="card-title">African Safari Adventure</h5>
                             <p class="card-text align-item-center">
                                 <li class="text-start">Destination: Tanzania</li>
-                                <li class="text-start">Highlights: Serengeti National Park, Ngorongoro Crater, Wildlife Safari
+                                <li class="text-start">Highlights: Serengeti National Park, Ngorongoro Crater, Wildlife
+                                    Safari
                                 </li>
                                 <li class="text-start">Duration: 12 Days</li>
                             </p>
@@ -230,7 +233,8 @@
                             <h5 class="card-title">Inca Trail Trek</h5>
                             <p class="card-text align-item-center">
                                 <li class="text-start">Destination: Peru</li>
-                                <li class="text-start">Highlights: Machu Picchu, Cusco, Sacred Valley, Hike the Inca Trail
+                                <li class="text-start">Highlights: Machu Picchu, Cusco, Sacred Valley, Hike the Inca
+                                    Trail
                                 </li>
                                 <li class="text-start">Duration: 9 Days</li>
                             </p>
@@ -301,13 +305,13 @@
 
 
     <script>
-        // packages----------------------------------
+    // packages----------------------------------
 
-        const loadMore = document.getElementById("loadMore");
-        const packagesRow = document.querySelectorAll(".packages_row");
-        let currentIndex = 0;
+    const loadMore = document.getElementById("loadMore");
+    const packagesRow = document.querySelectorAll(".packages_row");
+    let currentIndex = 0;
 
-        loadMore.addEventListener("click", function () {
+    loadMore.addEventListener("click", function() {
         if (currentIndex < packagesRow.length) {
             packagesRow[currentIndex].style.display = "flex";
             currentIndex++;
@@ -316,7 +320,7 @@
         if (currentIndex >= packagesRow.length) {
             loadMore.style.display = "none";
         }
-        });
+    });
     </script>
 </body>
 
